@@ -22,7 +22,7 @@
             break;
         case TAB_STYLE_DARK:
         case TAB_STYLE_DARK_HIGH_CONTRAST:
-            return [NSColor darkGrayColor];
+            return [NSColor colorWithRed:(30.0/255.0) green:(39.0/255.0) blue:(60.0/255.0) alpha:1.0];
             break;
     }
 }
